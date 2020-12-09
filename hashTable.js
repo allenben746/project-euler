@@ -57,9 +57,9 @@ class HashTable {
                this.keyMap[i].forEach(item => {
                    keysArr.push(item[0])
                })
-           } else {
-               keysArr.push(this.keyMap[i][0][0])
-           } 
+               } else {
+                   keysArr.push(this.keyMap[i][0][0])
+               } 
            }
        }
        return keysArr
